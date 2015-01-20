@@ -1,7 +1,3 @@
 <?php
-/**
- * $Author: http://www.opencartchina.com 
-**/
 // Text
-$_['text_error'] = '未找到信息页！';
-?>
+$_['text_error'] = '未找到信息页！';//Information Page Not Found!

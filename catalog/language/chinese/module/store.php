@@ -1,11 +1,7 @@
 <?php
-/**
- * $Author: http://www.opencartchina.com 
-**/
-// Heading 
-$_['heading_title'] = '选择商店';
+// Heading
+$_['heading_title'] = '选择商店';//Choose a Store
 
 // Text
-$_['text_default']  = '默认';
-$_['text_store']    = '请选择您要访问的商店。';
-?>
+$_['text_default']  = '默认';//Default
+$_['text_store']    = '请选择您要访问的商店。';//Please choose the store you wish to visit.

@@ -1,10 +1,6 @@
 <?php
-/**
- * $Author: http://www.opencartchina.com 
-**/
-// Heading 
-$_['heading_title']  = '特价商品';
+// Heading
+$_['heading_title'] = '特价商品';//Specials
 
 // Text
-$_['text_reviews']     = '%s / 5 星！';
-?>
+$_['text_tax']      = 'Ex Tax:';

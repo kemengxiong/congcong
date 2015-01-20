@@ -1,121 +1,89 @@
 <?php
-/**
- * $Author: http://www.opencartchina.com 
-**/
+// Heading
+$_['heading_title']        				= 'OpenBay职业';//OpenBay Pro
 
-// Heading 
-$_['lang_heading_title']        = 'OpenBay Pro'; 
-$_['lang_text_manager']         = 'OpenBay Pro manager'; 
+// Buttons
+$_['button_retry']						= '重试';//Retry
+$_['button_faq_clear']					= '清晰的';//Clear
+$_['button_update']						= '更新';//Update
+$_['button_patch']						= '补丁';//Patch
+$_['button_ftp_test']					= '测试连接';//Test connection
+$_['button_faq']						= '查看常见问题解答题目';//View FAQ topic
+
+// Tab
+$_['tab_setting']						= '设置';//Settings
+$_['tab_update']						= '更新';//Updates
+$_['tab_patch']							= '补丁';//Patch
 
 // Text
-$_['text_install']              = '安装';
-$_['text_uninstall']            = '卸载';
-$_['lang_text_success']         = '成功：设定已保存';
-$_['lang_text_no_results']      = '没有符合条件的结果';
-$_['lang_checking_version']     = '检查软件版本';
-$_['lang_btn_manage']           = 'Manage';
-$_['lang_btn_retry']            = '重试';
-$_['lang_btn_save']             = '保存';
-$_['lang_btn_cancel']           = '取消';
-$_['lang_btn_update']           = '更新';
-$_['lang_btn_settings']         = '设定';
-$_['lang_btn_patch']            = 'Patch';
-$_['lang_btn_test']             = '测试链接';
-$_['lang_latest']               = '您使用的是最新版本';
-$_['lang_installed_version']    = '已安装版本';
-$_['lang_admin_dir']            = 'Admin directory';
-$_['lang_admin_dir_desc']       = 'If you have changed your admin directory update it to the new location';
-$_['lang_version_old_1']        = 'A new version is available. Your version is';
-$_['lang_version_old_2']        = 'the latest is';
-$_['lang_use_beta']             = '使用测试(Beta)版本';
-$_['lang_use_beta_2']           = '不建议如此！';
-$_['lang_test_conn']            = '测试 FTP 链接';
-$_['lang_text_run_1']           = '执行更新';
-$_['lang_text_run_2']           = '执行';
-$_['lang_no']                   = '否';
-$_['lang_yes']                  = '是';
-$_['lang_language']             = 'API 接口接受语言';
-$_['lang_getting_messages']     = '获取 OpenBay Pro 信息';
+$_['text_success']         				= '成功:设置已保存';//Success: Settings have been saved
+$_['text_products']          			= '项目';//Items
+$_['text_orders']          				= '订单';//Orders
+$_['text_manage']          				= '管理';//Manage
+$_['text_help']                     	= '帮助';//Help
+$_['text_tutorials']                    = '教程';//Tutorials
+$_['text_suggestions']                  = '的想法';//Ideas
+$_['text_version_latest']               = '您正在运行最新版本';//You are running the latest version
+$_['text_version_check']     			= '检查软件版本';//Checking software version
+$_['text_version_installed']    		= '安装版的OpenBay Pro:v';//Installed version of OpenBay Pro: v
+$_['text_version_current']        		= '你的版本是';//Your version is
+$_['text_version_available']        	= '最新的是';//the latest is
+$_['text_language']             		= 'API反应语言';//API response language
+$_['text_getting_messages']     		= '让OpenBay职业信息';//Getting OpenBay Pro messages
+$_['text_complete']     				= '完整的';//Complete
+$_['text_test_connection']              = '测试FTP连接';//Test FTP connection
+$_['text_run_update']           		= '运行更新';//Run update
+$_['text_patch']            			= '文章更新补丁';//Post update patch
+$_['text_patch_complete']           	= '已应用补丁';//Patch has been applied
+$_['text_connection_ok']				= '可以连接到服务器。OpenCart文件夹发现';//Connected to server OK. OpenCart folders found
+$_['text_updated']						= '模块已经更新(%s)';//Module has been updated (v.%s)
+$_['text_update_description']			= "The update tool will make changes to your shop's file system. Make sure you have a backup before using this tool.";
+$_['text_clear_faq']                    = '清楚隐藏FAQ弹出窗口';//Clear hidden FAQ popups
+$_['text_clear_faq_complete']           = '现在再次显示通知';//Notifications will now show again
+$_['text_install_success']              = '市场已经安装';//Marketplace has been installed
+$_['text_uninstall_success']            = '市场已被删除';//Marketplace has been removed
+$_['text_title_messages']               = '消息和通知';//Messages &amp; notifications
+$_['text_marketplace_shipped']			= '订单状态会更新装运在市场上';//The order status will be updated to shipped on the marketplace
 
 // Column
-$_['lang_column_name']          = '插件名称';
-$_['lang_column_status']        = '状态';
-$_['lang_column_action']        = '操作';
+$_['column_name']          				= '插件名称';//Plugin name
+$_['column_status']        				= '状态';//Status
+$_['column_action']        				= '行动';//Action
+
+// Entry
+$_['entry_ftp_username']				= 'FTP用户名';//FTP Username
+$_['entry_ftp_password']				= 'FTP密码';//FTP Password
+$_['entry_ftp_server']					= 'FTP服务器地址';//FTP server address
+$_['entry_ftp_root']					= 'FTP服务器路径上';//FTP path on server
+$_['entry_ftp_admin']            		= '管理目录';//Admin directory
+$_['entry_ftp_pasv']                    = 'PASV模式';//PASV mode
+$_['entry_ftp_beta']             		= '使用beta版本';//Use beta version
+$_['entry_courier']						= '快递';//Courier
+$_['entry_courier_other']           	= '其他快递';//Other courier
+$_['entry_tracking']                	= '跟踪号';//Tracking #
 
 // Error
-$_['error_permission']          = '警告：您无权限修改 eBay 扩展功能！';
-$_['lang_error_retry']          = '无法链接到 OpenBay 服务器。 ';
+$_['error_username']             		= '所需的FTP用户名';//FTP username required
+$_['error_password']             		= 'FTP密码需要';//FTP password required
+$_['error_server']               		= 'FTP服务器所需的';//FTP server required
+$_['error_admin']             			= '预期管理目录';//Admin directory expected
+$_['error_no_admin']					= '连接好但是你OpenCart admin目录不存在';//Connection OK but your OpenCart admin directory was not found
+$_['error_no_files']					= '连接好但OpenCart文件夹没有找到!是你的根路径正确吗?';//Connection OK but OpenCart folders were not found! Is your root path correct?
+$_['error_ftp_login']					= '与该用户不能登录';//Could not login with that user
+$_['error_ftp_connect']					= '无法连接到服务器';//Could not connect to server
+$_['error_failed']						= '加载失败,重试?';//Failed to load, retry?
+$_['error_tracking_id_format']			= '您的追踪ID不能包含字符>或<';//Your tracking ID cannot contain the characters > or <
+$_['error_tracking_courier']			= '你必须选择一个快递,如果你想添加一个跟踪ID';//You must select a courier if you want to add a tracking ID
+$_['error_tracking_custom']				= '请把快递领域空如果您想要使用定制的信使';//Please leave courier field empty if you want to use custom courier
+$_['error_permission']					= '警告：您无权限修改 eBay 扩展功能！';//You do not have permission to modify the OpenBay Pro extension
 
-// Updates
-$_['lang_use_pasv']                     = 'Use passive FTP';
-$_['field_ftp_user']                    = 'FTP Username';
-$_['field_ftp_pw']                      = 'FTP Password';
-$_['field_ftp_server_address']          = 'FTP server address';
-$_['field_ftp_root_path']               = 'FTP path on server';
-$_['field_ftp_root_path_info']          = '(No trailing slash e.g. httpdocs/www)';
-$_['desc_ftp_updates']                  = 'Enabling updates from here means you do not have to manually update your module using the standard drag and drop through FTP. Your FTP are not sent to the API.<br />';
-
-//Updates
-$_['lang_run_patch_desc']               = 'Post update patch<span class="help">Only needed if you manually update</span>';
-$_['lang_run_patch']                    = 'Run patch';
-$_['update_error_username']             = 'Username expected';
-$_['update_error_password']             = 'Password expected';
-$_['update_error_server']               = 'Server expected';
-$_['update_error_admindir']             = 'Admin directory expected';
-$_['update_okcon_noadmin']              = 'Connection OK but your OpenCart admin directory was not found';
-$_['update_okcon_nofiles']              = 'Connection OK but OpenCart folders were not found! Is your root path correct?';
-$_['update_okcon']                      = 'Connected to server OK. OpenCart folders found';
-$_['update_failed_user']                = 'Could not login with that user';
-$_['update_failed_connect']             = 'Could not connect to server';
-$_['update_success']                    = 'Module has been updated (v.%s)';
-$_['lang_patch_notes1']                 = 'To read about the recent and past updates';
-$_['lang_patch_notes2']                 = 'click here';
-
-//Help tab
-$_['lang_help_title']                   = 'Information on help & support';
-$_['lang_help_support_title']           = 'Support';
-$_['lang_help_support_description']     = 'You should read our FAQ section to see if your question is already answered <a href="http://shop.openbaypro.com/index.php?route=information/faq" title="OpenBay Pro for OpenCart support FAQ">here</a>. <br />If you cannot find an answer then you can create a support ticket, <a href="http://support.welfordmedia.co.uk" title="OpenBay Pro for OpenCart support site">click here</a>';
-$_['lang_help_template_title']          = 'Creating eBay templates';
-$_['lang_help_template_description']    = 'Information for developers &amp; designers on creating custom templates for their eBay listings, <a href="http://shop.openbaypro.com/index.php?route=information/faq&topic=30" title="OpenBay Pro HTML templates for eBay">click here</a>';
-
-$_['lang_tab_help']                     = 'Help';
-$_['lang_help_guide']                   = 'User guides';
-$_['lang_help_guide_description']       = 'To download and view the eBay and Amazon user guides <a href="http://shop.openbaypro.com/index.php?route=information/faq&topic=37" title="OpenBay Pro user guides">click here</a>';
-
-$_['lang_mcrypt_text_false']            = 'PHP function "mcrypt_encrypt" is not enabled. Contact your hosting provider.';
-$_['lang_mb_text_false']                = 'PHP library "mb strings" is not enabled. Contact your hosting provider.';
-$_['lang_ftp_text_false']               = 'PHP FTP functions are not enabled. Contact your hosting provider.';
-$_['lang_error_oc_version']             = 'Your version of OpenCart is not tested to work with this module. You may experience problems.';
-$_['lang_patch_applied']                = 'Patch applied';
-$_['faqbtn']                            = 'View FAQ';
-$_['lang_clearfaq']                     = 'Clear hidden FAQ popups';
-$_['lang_clearfaqbtn']                  = 'Clear';
-
-// Ajax elements
-$_['lang_ajax_ebay_shipped']            = 'The order will be marked as shipped on eBay automatically';
-$_['lang_ajax_play_shipped']            = 'The order will be marked as shipped on Play.com automatically';
-$_['lang_ajax_amazoneu_shipped']        = 'The order will be marked as shipped on Amazon EU automatically';
-$_['lang_ajax_amazonus_shipped']        = 'The order will be marked as shipped on Amazon US automatically';
-$_['lang_ajax_play_refund']             = 'A refund will be issued to play.com for this order automatically';
-$_['lang_ajax_refund_reason']           = 'Refund reason';
-$_['lang_ajax_refund_message']          = 'Refund message';
-$_['lang_ajax_refund_entermsg']         = 'You must enter a refund message';
-$_['lang_ajax_refund_charmsg']          = 'Your refund message must be less than 1000 characters';
-$_['lang_ajax_refund_charmsg2']         = 'Your message cannot contain the characters > or <';
-$_['lang_ajax_courier']                 = 'Courier';
-$_['lang_ajax_courier_other']           = 'Other courier';
-$_['lang_ajax_tracking']                = 'Tracking #';
-$_['lang_ajax_tracking_msg']            = 'You must enter a tracking id, use "none" if you do not have one';
-$_['lang_ajax_tracking_msg2']           = 'Your tracking ID cannot contain the characters > or <';
-$_['lang_ajax_tracking_msg3']           = 'You must select courier if you want to upload tracking no.';
-$_['lang_ajax_tracking_msg4']           = 'Please leave courier field empty if you want to use custom courier.';
-
-$_['lang_title_help']                   = 'Need help with OpenBay Pro?';
-$_['lang_pod_help']                     = 'Help';
-$_['lang_title_manage']                 = 'Manage OpenBay Pro; updates, settings and more';
-$_['lang_pod_manage']                   = 'Manage';
-$_['lang_title_shop']                   = 'OpenBay Pro store; addons, templates and more';
-$_['lang_pod_shop']                     = 'Store';
-
-$_['lang_checking_messages']            = 'Checking for messages';
-$_['lang_title_messages']               = 'Messages &amp; notifications';
+// Help
+$_['help_ftp_username']           		= '从您的主机使用FTP用户名';//Use the FTP username from your host
+$_['help_ftp_password']           		= '从您的主机使用FTP密码';//Use the FTP password from your host
+$_['help_ftp_server']      				= 'FTP服务器的IP地址或域名';//IP address or domain name for your FTP server
+$_['help_ftp_root']           			= '(没有斜杠号如httpdocs / www)';//(No trailing slash e.g. httpdocs/www)
+$_['help_ftp_admin']               		= '如果你已经改变了管理目录更新它到新的位置';//If you have changed your admin directory update it to the new location
+$_['help_ftp_pasv']                    	= '改变你的FTP连接被动模式';//Change your FTP connection to passive mode
+$_['help_ftp_beta']             		= '谨慎!beta版本可能无法正确工作';//Caution! The beta version may not work correctly
+$_['help_patch']						= '如果你更新你的文件通过FTP需要运行补丁完成更新';//If you update your files through FTP you need to run the patch to complete the update
+$_['help_clear_faq']					= '显示所有的帮助再次通知';//Show all of the help notifications again

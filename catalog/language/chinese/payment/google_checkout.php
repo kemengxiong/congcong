@@ -1,4 +1,0 @@
-<?php
-// Entry
-$_['text_title'] = 'ÐÅÓÃ¿¨ / ½è¼Ç¿¨ (Google Checkout)';
-?>

@@ -1,4 +1,3 @@
 <?php
 // Text
-$_['text_title'] = '信用卡/ 借记卡(LiqPay)';
-?>
+$_['text_title'] = '信用卡/ 借记卡(LiqPay)';//Credit Card / Debit Card (LiqPay)
