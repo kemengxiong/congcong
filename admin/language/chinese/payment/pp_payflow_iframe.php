@@ -1,28 +1,40 @@
 <?php
 // Heading
-$_['heading_title']					= 'PayPal Payflow Pro iFrame';
-$_['heading_refund']				= 'Refund';
+$_['heading_title'] = 'PayPal Payflow Pro iFrame';
+$_['heading_refund'] = 'Refund';
 
-// Text
-$_['text_payment']					= 'Payment';
-$_['text_success']					= 'Success: You have modified PayPal Payflow Pro iFrame account details!';
+//Table columns
+$_['column_transaction_id'] = 'Transaction ID';
+$_['column_transaction_type'] = 'Transaction Type';
+$_['column_amount'] = 'Amount';
+$_['column_time'] = 'Time';
+$_['column_actions'] = 'Actions';
+
+//Text
+$_['text_payment'] = 'Payment';
+$_['text_success'] = 'Success: You have modified PayPal Payflow Pro iFrame account details!';
 $_['text_edit']                     = 'Edit PayPal Payflow Pro iFrame';
 $_['text_pp_payflow_iframe']		= '<a target="_BLANK" href="https://www.paypal.com/uk/mrb/pal=V4T754QB63XXL"><img src="view/image/payment/paypal.png" alt="PayPal Website Payment Pro" title="PayPal Website Payment Pro iFrame" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_authorization']			= 'Authorization';
-$_['text_sale']						= 'Sale';
-$_['text_authorise']				= 'Authorise';
-$_['text_capture']					= 'Delayed Capture';
-$_['text_void']						= 'Void';
-$_['text_payment_info']				= 'Payment information';
-$_['text_complete']					= 'Complete';
-$_['text_incomplete']				= 'Incomplete';
-$_['text_transaction']				= 'Transaction';
-$_['text_confirm_void']				= 'If you void you cannot capture any further funds';
-$_['text_refund']					= 'Refund';
-$_['text_refund_issued']			= 'Refund was issued successfully';
-$_['text_redirect']					= 'Redirect';
-$_['text_iframe']					= 'Iframe';
-$_['help_checkout_method']			= "Please use Redirect method if do not have SSL installed or if you do not have Pay with PayPal option disabled on your hosted payment page.";
+$_['text_authorization'] = 'Authorization';
+$_['text_sale'] = 'Sale';
+$_['text_authorise'] = 'Authorise';
+$_['text_capture'] = 'Delayed Capture';
+$_['text_void'] = 'Void';
+$_['text_payment_info'] = 'Payment information';
+$_['text_complete'] = 'Complete';
+$_['text_incomplete'] = 'Incomplete';
+$_['text_transaction'] = 'Transaction';
+$_['text_confirm_void'] = 'If you void you cannot capture any further funds';
+$_['text_refund'] = 'Refund';
+$_['text_refund_issued'] = 'Refund was issued successfully';
+$_['text_redirect'] = 'Redirect';
+$_['text_iframe'] = 'Iframe';
+$_['help_vendor'] = 'Your merchant login ID that you created when you registered for the Website Payments Pro account.';
+$_['help_user'] = 'If you set up one or more additional users on the account, this value is the ID of the user authorised to process transactions. If, however, you have not set up additional users on the account, USER has the same value as VENDOR.';
+$_['help_password'] = 'The 6 to 32 character password that you defined while registering for the account.';
+$_['help_partner'] = 'The ID provided to you by the authorised PayPal Reseller who registered you for the Payflow SDK. If you purchased your account directly from PayPal, use PayPal';
+$_['help_checkout_method'] = "Please use Redirect method if do not have SSL installed or if you do not have Pay with PayPal option disabled on your hosted payment page.";
+$_['help_debug'] = "Logs additional information.";
 
 // Column
 $_['column_transaction_id']			= 'Transaction ID';
@@ -64,19 +76,19 @@ $_['entry_capture']					= 'Capture';
 $_['entry_transactions']			= 'Transactions';
 $_['entry_complete_capture']		= 'Complete Capture';
 $_['entry_canceled_reversal_status'] = 'Canceled Reversal Status:';
-$_['entry_completed_status']		= 'Completed Status:';
-$_['entry_denied_status']			= 'Denied Status:';
-$_['entry_expired_status']			= 'Expired Status:';
-$_['entry_failed_status']			= 'Failed Status:';
-$_['entry_pending_status']			= 'Pending Status:';
-$_['entry_processed_status']		= 'Processed Status:';
-$_['entry_refunded_status']			= 'Refunded Status:';
-$_['entry_reversed_status']			= 'Reversed Status:';
-$_['entry_voided_status']			= 'Voided Status:';
-$_['entry_cancel_url']				= 'Cancel URL:';
-$_['entry_error_url']				= 'Error URL:';
-$_['entry_return_url']				= 'Return URL:';
-$_['entry_post_url']				= 'Silent POST URL:';
+$_['entry_completed_status'] = 'Completed Status:';
+$_['entry_denied_status'] = 'Denied Status:';
+$_['entry_expired_status'] = 'Expired Status:';
+$_['entry_failed_status'] = 'Failed Status:';
+$_['entry_pending_status'] = 'Pending Status:';
+$_['entry_processed_status'] = 'Processed Status:';
+$_['entry_refunded_status'] = 'Refunded Status:';
+$_['entry_reversed_status'] = 'Reversed Status:';
+$_['entry_voided_status'] = 'Voided Status:';
+$_['entry_cancel_url'] = 'Cancel URL:';
+$_['entry_error_url'] = 'Error URL:';
+$_['entry_return_url'] = 'Return URL:';
+$_['entry_post_url'] = 'Silent POST URL:';
 
 // Help
 $_['help_vendor']					= 'Your merchant login ID that you created when you registered for the Website Payments Pro account';

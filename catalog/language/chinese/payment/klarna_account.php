@@ -1,38 +1,39 @@
 <?php
 // Text
-$_['text_title']				= 'Klarna Account - Pay from %s/month';
+$_['text_title']           = 'Klarna帐户';
 $_['text_terms']				= '<span id="klarna_account_toc"></span><script type="text/javascript">var terms = new Klarna.Terms.Account({el: \'klarna_account_toc\', eid: \'%s\', country: \'%s\'});</script>';
-$_['text_information']			= 'Klarna Account Information';
-$_['text_additional']			= 'Klarna Account requires some additional information before they can proccess your order.';
-$_['text_male']					= 'Male';
-$_['text_female']				= 'Female';
-$_['text_year']					= 'Year';
-$_['text_month']				= 'Month';
-$_['text_day']					= 'Day';
-$_['text_payment_option']		= 'Payment options';
-$_['text_single_payment']		= 'Single Payment';
-$_['text_monthly_payment']		= '%s - %s per month';
-$_['text_comment']				= 'Klarna\'s Invoice ID: %s' . "\n" . '%s/%s: %.4f';
+$_['text_information']     = 'Klarna帐户信息';
+$_['text_additional']      = 'Klarna帐户需要一些额外的信息，才可以处理您的订单。';
+$_['text_wait']            = '请耐心等待！';
+$_['text_male']            = '男';
+$_['text_female']          = '女';
+$_['text_year']            = '年';
+$_['text_month']           = '月';
+$_['text_day']             = '日';
+$_['text_payment_option']  = '付款方式';
+$_['text_single_payment']  = '一次性付款';
+$_['text_monthly_payment'] = '%s - %s 每月';
+$_['text_comment']         = "Klarna的发票编号： %s\n%s/%s: %.4f";
 
 // Entry
-$_['entry_gender']				= 'Gender';
-$_['entry_pno']					= 'Personal Number';
-$_['entry_dob']					= 'Date of Birth';
-$_['entry_phone_no']			= 'Phone number';
-$_['entry_street']				= 'Street';
-$_['entry_house_no']			= 'House No.';
-$_['entry_house_ext']			= 'House Ext.';
-$_['entry_company']				= 'Company Registration Number';
+$_['entry_gender']         = '性别:';
+$_['entry_pno']            = '个人号码：<br /><span class="help">请在此处输入您的社会安全号码。</span>';
+$_['entry_dob']            = '出生日期：';
+$_['entry_phone_no']       = '电话号码：<br /><span class="help">请输入您的电话号码。</span>';
+$_['entry_street']         = '街道：<br /><span class="help">請注意使用Klarna時，送货只可以使用巳注册的地址。</span>';
+$_['entry_house_no']       = '门牌号:<br /><span class="help">请输入您的门牌号码。</span>';
+$_['entry_house_ext']      = '房间号:<br /><span class="help">请在这里提交您的房间号。 E.g. A, B, C, Red, Blue ect.</span>';
+$_['entry_company']        = '公司注册号：<br /><span class="help">请输入您的公司的注册号码</span>';
 
 // Help
-$_['help_pno']					= 'Please enter your Social Security number here.';
-$_['help_phone_no']				= 'Please enter your phone number.';
-$_['help_street']				= 'Please note that delivery can only take place to the registered address when paying with Klarna.';
-$_['help_house_no']				= 'Please enter your house number.';
-$_['help_house_ext']			= 'Please submit your house extension here. E.g. A, B, C, Red, Blue ect.';
-$_['help_company']				= 'Please enter your Company\'s registration number';
+$_['help_pno']					= '请在此输入您的社会安全号码。';
+$_['help_phone_no']				= '请输入您的手机号码。';
+$_['help_street']				= '请注意，配送地址只能是Klarna已注册的地址。';
+$_['help_house_no']				= '请输入您的门牌号码。';
+$_['help_house_ext']			= 请输入您的房间号码。E.g. A, B, C, Red, Blue ect.';
+$_['help_company']				= '请输入您的公司的注册号码';
 
 // Error
-$_['error_deu_terms']			= 'You must agree to Klarna\'s privacy policy (Datenschutz)';
-$_['error_address_match']		= 'Billing and Shipping addresses must match if you want to use Klarna Payments';
-$_['error_network']				= 'Error occurred while connecting to Klarna. Please try again later.';
+$_['error_deu_terms']      = '您必须同意Klarna的隐私政策 (Datenschutz)';
+$_['error_address_match']  = '如果您想使用Klarna支付，支付和发货地址必须相符';
+$_['error_network']        = '在连接到Klarna时发生错误。请稍后再试。';

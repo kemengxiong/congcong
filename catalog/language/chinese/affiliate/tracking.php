@@ -1,15 +1,15 @@
 <?php
-// Heading
-$_['heading_title']    = '加盟跟踪';//Affiliate Tracking
+// Heading 
+$_['heading_title']    = '联盟跟踪';
 
 // Text
-$_['text_account']     = '账户';//Account
-$_['text_description'] = 'To make sure you get paid for referrals you send to us we need to track the referral by placing a tracking code in the URL\'s linking to us. You can use the tools below to generate links to the %s web site.';
+$_['text_account']     = '账户';
+$_['text_description'] = '为了确保您能得到我们发送的付款，我们需要跟踪放置在URL跟踪代码链接给我们，您可以使用下面的工具来生成 %s 链接网站。';
 
 // Entry
-$_['entry_code']       = 'Your Tracking Code';
-$_['entry_generator']  = 'Tracking Link Generator';
-$_['entry_link']       = 'Tracking Link';
+$_['entry_code']       = '您的跟踪代码';
+$_['entry_generator']  = '跟踪链接生成';
+$_['entry_link']       = '跟踪链接';
 
 // Help
-$_['help_generator']  = 'Type in the name of a product you would like to link to';
+$_['help_generator']  = '键入您想链接产品的名称';

@@ -1,15 +1,17 @@
 <?php
-// Heading
-$_['heading_title']    = '插件扩展';//Feeds
+// Heading 
+$_['heading_title']      = '插件扩展';
 
 // Text
-$_['text_success']     = '成功:你修改反馈!';//Success: You have modified feeds!
-$_['text_list']        = '提要列表';//Feed List
+$_['text_success']     = '成功：您已成功修改插件扩展！';
+$_['text_list']        = '插件扩展清单';
+$_['text_install']       = '安装';
+$_['text_uninstall']     = '卸载';
 
 // Column
-$_['column_name']      = '插件名称';//Product Feed Name
-$_['column_status']    = '状态';//Status
-$_['column_action']    = '操作';//Action
+$_['column_name']        = '插件名称';
+$_['column_status']      = '状态';
+$_['column_action']      = '管理';
 
 // Error
-$_['error_permission'] = '警告： 您没有权限修改插件扩展！';//Warning: You do not have permission to modify feeds!
+$_['error_permission']   = '警告： 您没有权限修改插件扩展！';

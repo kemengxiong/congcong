@@ -1,10 +1,11 @@
 <?php
 // Text
-$_['text_title']				= 'ÐÅÓÃ¿¨ / ½è¼Ç¿¨(Web Payment Software)';//Credit Card / Debit Card (Web Payment Software)
-$_['text_credit_card']			= 'ÐÅÓÃ¿¨×ÊÁÏ';//Credit Card Details
+$_['text_title']           = 'ä¿¡ç”¨å¡ / å€Ÿè®°å¡(Web Payment Software)';
+$_['text_credit_card']     = 'ä¿¡ç”¨å¡èµ„æ–™';
+$_['text_wait']            = 'è¯·ç¨å€™ï¼';
 
 // Entry
-$_['entry_cc_owner']			= '³Ö¿¨ÈË£º';//Card Owner
-$_['entry_cc_number']			= '¿¨ºÅ£º';//Card Number
-$_['entry_cc_expire_date']		= 'ÐÅÓÃ¿¨ÓÐÐ§ÆÚµ½£º';//Card Expiry Date
-$_['entry_cc_cvv2']				= 'ÐÅÓÃ¿¨°²È«Âë (CVV2)£º';//Card Security Code (CVV2)
+$_['entry_cc_owner']       = 'æŒå¡äººï¼š';
+$_['entry_cc_number']      = 'å¡å·ï¼š';
+$_['entry_cc_expire_date'] = 'ä¿¡ç”¨å¡æœ‰æ•ˆæœŸåˆ°ï¼š';
+$_['entry_cc_cvv2']        = 'ä¿¡ç”¨å¡å®‰å…¨ç  (CVV2)ï¼š';

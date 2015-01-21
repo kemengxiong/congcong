@@ -1,7 +1,7 @@
 <?php
 // Text
-$_['text_total_shipping']		= 'Shipping';
-$_['text_total_discount']		= 'Discount';
-$_['text_total_tax']			= 'Tax';
-$_['text_total_sub']			= 'Sub-total';
-$_['text_total']				= 'Total';
+$_['text_total_shipping']     = '配送方式';
+$_['text_total_discount']     = '折扣';
+$_['text_total_tax']          = '税';
+$_['text_total_sub']     = '小计';
+$_['text_total']        = '总计';

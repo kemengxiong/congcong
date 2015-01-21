@@ -1,2 +1,2 @@
 <?php
-$_['text_total'] = '订单总额';//Total
+$_['text_total'] = '订单总额';
