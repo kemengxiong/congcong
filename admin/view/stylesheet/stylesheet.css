@@ -1,6 +1,4 @@
-/*后台静态样式表*/
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese);
-/*整体页面*/
 html, body {
 	height: 100%;
 	margin: 0;
@@ -12,18 +10,15 @@ html, body {
 	line-height: 18px;
 	text-rendering: optimizeLegibility;
 }
-/*各标题*/
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;
 }
-/*页头*/
 .page-header {
 	vertical-align: middle;
 	margin: 15px 0;
 	padding: 0;
 	border-bottom: none;
 }
-/*页头标题*/
 .page-header h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -138,7 +133,7 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 }
 #profile div {
 	float: left;
-	color: #868686;
+	color: #C4C4C4;
 }
 #profile div + div {
 	margin-left: 15px;
@@ -151,11 +146,10 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	color: #FFF;
 	margin-bottom: 0;
 }
-/*边栏*/
 #column-left {
 	width: 50px;
 	height: 100%;
-	background-color: #878787;
+	background-color: #515151;
 	position: absolute;
 	top: 0px;
 	padding-top: 50px;
@@ -229,7 +223,7 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 }
 #menu li li a:hover {
 	color: #FFFFFF;
-	background-color: #383838;
+	background-color: #373737;
 }
 #menu li li a:before {
 	content: "\f101";
@@ -243,8 +237,8 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	margin-right: 20px;
 }
 #menu > li.active > a {
-	color: #ffffff;
-	background: #696969;
+	color: #DDDDDD;
+	background: #373737;
 }
 #menu li.active li a {
 	color: #C4C4C4;
@@ -262,7 +256,7 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	left: 50px;
 	top: 0px;
 	width: 210px;
-	background-color: #656565;
+	background-color: #444444;
 	visibility: hidden;
 }
 #menu li ul {
@@ -533,11 +527,11 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 	height: 40px;
 	padding-top: 10px;
 }
-/* 后台首页色块 */
+/* Tiles */
 .tile {
 	margin-bottom: 15px;
 	border-radius: 3px;
-	background-color: #80e126;
+	background-color: #279FE0;
 	color: #FFFFFF;
 	transition: all 1s;
 }
@@ -551,7 +545,7 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 .tile-heading {
 	padding: 5px 8px;
 	text-transform: uppercase;
-	background-color: #79cf1d;
+	background-color: #1E91CF;
 	color: #FFF;
 }
 .tile .tile-heading .pull-right {
@@ -580,12 +574,11 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 }
 .tile-footer {
 	padding: 5px 8px;
-	background-color: #8ee33d;
+	background-color: #3DA9E3;
 }
 #column-left.active #stats {
 	display: block;
 } 
-/*分析*/
 #stats {
 	display: none;
 	border-radius: 2px;
@@ -603,7 +596,7 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 	font-size: 11px;
 	color: #9d9d9d;
 	padding: 5px 10px;
-	border-bottom: 1px dotted #696969;
+	border-bottom: 1px dotted #373737;
 } 
 #stats div:first-child {
 	margin-bottom: 4px;

@@ -1,56 +1,51 @@
 <?php
 // Heading
-$_['heading_title'] = '分期付款订单';
+$_['heading_title']                        = '分期付款订单';//Recurring Profiles
 
 // Text
-$_['text_success'] = '成功︰您已經成功修改了分期付款订单！';
-$_['text_list']                            = '分期付款订单清单';
-$_['text_add']                             = '添加分期付款订单';
-$_['text_edit']                            = '编辑分期付款订单';
-$_['text_payment_profiles'] = '付款设定档';
-$_['text_status_active'] = '启用';
-$_['text_status_inactive'] = '停用';
-$_['text_status_cancelled'] = '取消';
-$_['text_status_suspended'] = '暂停';
-$_['text_status_expired'] = '过期';
-$_['text_status_pending'] = '待定';
-$_['text_transactions'] = '付款记录';
-$_['text_cancel_confirm'] = "付款设定档的取消后不能使用！您确定要这么做吗？";
-$_['text_transaction_date_added']          = '添加日期';
-$_['text_transaction_payment'] = '付款';
-$_['text_transaction_outstanding_payment'] = '未付款项';
-$_['text_transaction_skipped'] = '跳过付款';
-$_['text_transaction_failed'] = '付款失败';
-$_['text_transaction_cancelled'] = '取消';
-$_['text_transaction_suspended'] = '暂停';
-$_['text_transaction_suspended_failed'] = '暂停由于付款失效';
-$_['text_transaction_outstanding_failed'] = '未付款项失效';
-$_['text_transaction_expired'] = '过期';
-
-$_['text_return'] = '返回';
-$_['text_cancel'] = '取消';
-$_['text_filter'] = '筛选';
-$_['text_transaction_created'] = '创建';
+$_['text_success']                         = 'Success: You have modified Payment Profiles!';//Success: You have modified recurring profiles!
+$_['text_list']                            = 'Recurring Profile List';
+$_['text_add']                             = 'Add Recurring Profile';
+$_['text_edit']                            = 'Edit Recurring Profile';
+$_['text_payment_profiles']                = 'Payment Profiles';//Recurring Profiles
+$_['text_status_active']                   = 'Active';//Active
+$_['text_status_inactive']                 = 'Inactive';//Inactive
+$_['text_status_cancelled']                = 'Cancelled';//Cancelled
+$_['text_status_suspended']                = 'Suspended';//Suspended
+$_['text_status_expired']                  = 'Expired';//Expired
+$_['text_status_pending']                  = 'Pending';//Pending
+$_['text_transactions']                    = 'Transactions';//Transactions
+$_['text_cancel_confirm']                  = 'Profile\'s cancellation cannot be undone! Are you sure want to do this?';
+$_['text_transaction_date_added']          = 'Date added';
+$_['text_transaction_payment'] 			   = 'Payment';//Payment
+$_['text_transaction_outstanding_payment'] = 'Outstanding payment';//Outstanding payment
+$_['text_transaction_skipped']             = 'Payment skipped';//Payment skipped
+$_['text_transaction_failed']              = 'Payment failed';//Payment failed
+$_['text_transaction_cancelled']           = 'Cancelled';//Cancelled
+$_['text_transaction_suspended']           = 'Suspended';//Suspended
+$_['text_transaction_suspended_failed']    = 'Suspended from failed payment';//Suspended from failed payment
+$_['text_transaction_outstanding_failed']  = 'Outstanding payment failed';//Outstanding payment failed
+$_['text_transaction_expired']             = 'Expired';//Expired
 
 // Entry
-$_['entry_cancel_payment'] = '取消付款';
-$_['entry_order_recurring'] = 'ID';
-$_['entry_order_id'] = '订单 ID';
-$_['entry_reference'] = '付款参考';
-$_['entry_customer'] = '会员';
-$_['entry_date_added'] = '添加日期';
-$_['entry_status'] = '状态';
-$_['entry_type'] = '状态';
-$_['entry_action'] = '操作';
-$_['entry_email'] = 'E-Mail';
-$_['entry_description'] = "付款设定说明";
-$_['entry_product'] = "产品:";
-$_['entry_quantity'] = "数量:";
-$_['entry_amount'] = "合计:";
-$_['entry_recurring'] = "付款设定:";
-$_['entry_payment_method'] = "付款方式:";
+$_['entry_cancel_payment']                 = 'Cancel Payment:';//Cancel Payment
+$_['entry_order_recurring']                = 'ID:';//ID
+$_['entry_order_id']                       = 'Order ID:';//Order ID
+$_['entry_reference']                      = 'Payment Reference';
+$_['entry_customer']                       = 'Customer';//Customer
+$_['entry_date_added']                     = 'Date Added';
+$_['entry_status']                         = 'Status';//Status
+$_['entry_type']                           = 'Type';//Type
+$_['entry_action']                         = 'Action';//Action
+$_['entry_email']                          = 'Email';//Email
+$_['entry_description']                    = 'Recurring Profile\'s description';
+$_['entry_product']                        = 'Product:';//Product
+$_['entry_quantity']                       = 'Quantity:';//Quantity
+$_['entry_amount']                         = 'Amount:';//Amount
+$_['entry_recurring']                      = 'Recurring Profile';
+$_['entry_payment_method']                 = 'Payment Method';
 
 // Error / Success
-$_['error_not_cancelled'] = '错误: %s';
-$_['error_not_found'] = '无法取消付款设定';
-$_['text_cancelled'] = '分期付款已经取消';
+$_['error_not_cancelled']                  = 'Error: %s';//Error: %s
+$_['error_not_found']                      = 'Could not cancel profile';//Could not cancel recurring profile
+$_['text_cancelled']                    = 'Recurring payment has been cancelled';

@@ -1,3 +1,3 @@
 <?php
 // Text
-$_['text_currency'] = '货币';
+$_['text_currency'] = 'Currency';

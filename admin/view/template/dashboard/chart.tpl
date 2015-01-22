@@ -1,4 +1,3 @@
-<!--销售分析表格-->
 <div class="panel panel-default">
   <div class="panel-heading">
     <div class="pull-right"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar"></i> <i class="caret"></i></a>
@@ -33,8 +32,7 @@ $('#range a').on('click', function(e) {
                         if (typeof json['order'] == 'undefined') { return false; }
 			var option = {	
 				shadowSize: 0,
-				//颜色一为订单色，颜色二为客户色
-				colors: ['#8ee33d', '#79cf1d'],
+				colors: ['#9FD5F1', '#1065D2'],
 				bars: { 
 					show: true,
 					fill: true,

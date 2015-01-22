@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title'] = '客户在线';
+$_['heading_title'] = '人在线';//People Online
 
 // Text
-$_['text_view']     = '显示详细...';
+$_['text_view']     = '... more View';//View more...

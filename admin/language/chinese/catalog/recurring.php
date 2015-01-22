@@ -1,52 +1,42 @@
 <?php
 // Heading
-$_['heading_title'] 	= '分期付款设定';
+$_['heading_title']			= '反复出现的概要文件';//Recurring Profiles
 
 // Text
-$_['text_success'] = '分期付款已成功加入';
-$_['text_list']             = '分期付款清单';
-$_['text_add']              = '添加分期付款';
-$_['text_edit']             = '编辑分期付款';
-$_['button_insert'] = '新增';
-$_['button_copy'] = '复制';
-$_['button_delete'] = '删除';
-$_['button_remove'] = '移除';
-
-$_['text_no_results'] = '没有相关结果';
-$_['text_remove'] = '移除';
-$_['text_enabled'] = '启用';
-$_['text_disabled'] = '停用';
-
-$_['text_day'] = '每天';
-$_['text_week'] = '每周';
-$_['text_semi_month'] = '每半月';
-$_['text_month'] = '每月';
-$_['text_year'] = '每年';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> 周期性金额由频率和周期计算。<br/>例如，如果您使用“每周”为频率和“2”为一个周期，则该用户将被每2周计费一次。 <br/>持续时间是指用户将进行付款的次数，如果你想让用户支付直到它们被取消了，将其设置为0。</p>';
-$_['text_profile']			= '分期付款';
-$_['text_trial']			= '测试分期付款';
+$_['text_success']          = '成功:你修改重复配置文件!';//Success: You have modified recurring profiles!
+$_['text_list']             = '反复出现的概要文件列表';//Recurring Profile List
+$_['text_add']              = '添加重复配置文件';//Add Recurring Profile
+$_['text_edit']             = '编辑重复配置文件';//Edit Recurring Profile
+$_['text_day']				= '一天';//Day
+$_['text_week']				= '周';//Week
+$_['text_semi_month']		= '半月';//Semi Month
+$_['text_month']			= '月';//Month
+$_['text_year']				= '一年';//Year
+$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Recurring amounts are calculated by the frequency and cycles.</p><p>For example if you use a frequency of "week" and a cycle of "2", then the user will be billed every 2 weeks.</p><p>The duration is the number of times the user will make a payment, set this to 0 if you want payments until they are cancelled.</p>';
+$_['text_profile']			= '反复出现的概要文件';//Recurring Profile
+$_['text_trial']			= '试验资料';//Trial Profile
 
 // Entry
-$_['entry_name'] = '名称：';
-$_['entry_price'] = '金额：';
-$_['entry_duration'] = '持续时间：';
-$_['entry_cycle'] = '周期：';
-$_['entry_frequency'] = '频率：';
-$_['entry_trial_price'] = '测试金额：';
-$_['entry_trial_duration'] = '测试持续时间：';
-$_['entry_trial_status'] = '测试状态：';
-$_['entry_trial_cycle'] = '测试周期：';
-$_['entry_trial_frequency'] = '测试频率：';
-$_['entry_status'] = '状态：';
-$_['entry_sort_order'] = '排序：';
+$_['entry_name']			= '的名字';//Name
+$_['entry_price']			= '价格';//Price
+$_['entry_duration']		= '持续时间';//Duration
+$_['entry_cycle']			= '周期';//Cycle
+$_['entry_frequency']		= '频率';//Frequency
+$_['entry_trial_price']		= '试验的价格';//Trial price
+$_['entry_trial_duration']	= '试验持续时间';//Trial duration
+$_['entry_trial_status']	= '试验状态';//Trial status
+$_['entry_trial_cycle']	    = '试验周期';//Trial cycle
+$_['entry_trial_frequency']	= '试验频率';//Trial frequency
+$_['entry_status']			= '状态';//Status
+$_['entry_sort_order']		= '排序顺序';//Sort Order
 
 // Column
-$_['column_name'] = '名称';
-$_['column_sort_order'] = '排序';
-$_['column_action'] = '管理';
+$_['column_name']			= '的名字';//Name
+$_['column_sort_order']	    = '排序顺序';//Sort Order
+$_['column_action']         = '行动';//Action
 
 // Error
-$_['error_warning'] = '警告：请仔细检查表格是否有错误！';
-$_['error_permission'] = '警告：您没有权限修改分期扣费！';
-$_['error_name'] = '分期扣费名必须介与3与255个字符！';
-$_['error_product']			= '警告：分期付款不能被删除，因为它目前分配给%s的商品！';
+$_['error_warning']         = '警告:请仔细检查表单错误!';//Warning: Please check the form carefully for errors!
+$_['error_permission']		= '警告:您没有权限修改重复配置文件!';//Warning: You do not have permission to modify recurring profiles!
+$_['error_name']			= '配置文件名称必须大于3小于255个字符!';//Profile Name must be greater than 3 and less than 255 characters!
+$_['error_product']			= '警告:这个反复出现的概要文件不能删除,因为它目前分配到%s产品!';//Warning: This recurring profile cannot be deleted as it is currently assigned to %s products!

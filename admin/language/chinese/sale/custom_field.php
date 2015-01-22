@@ -1,52 +1,49 @@
 <?php
 // Heading
-$_['heading_title']       = '自定义区';
+$_['heading_title']         = '会员注册项设置';//Custom Fields
 
 // Text
-$_['text_success']        = '成功：您已修改了自定义区！';
-$_['text_list']             = '自定义区清单';
-$_['text_add']              = '添加自定义区';
-$_['text_edit']             = '编辑自定义区';
-$_['text_choose']         = '选择';
-$_['text_select']         = '列表';
-$_['text_radio']          = '单选';
-$_['text_checkbox']       = '复选框';
-$_['text_input']          = '文字录入';
-$_['text_text']           = '单行文本';
-$_['text_textarea']       = '多行文本区';
-$_['text_file']           = '文件';
-$_['text_date']           = '日期';
-$_['text_datetime']       = '日期 &amp; 时间';
-$_['text_time']           = '时间';
-$_['text_account']          = '管理';
-$_['text_address']          = '地址';
-$_['text_payment_address']  = '支付地址';
-$_['text_shipping_address'] = '运送地址';
+$_['text_success']          = '成功：您已成功修改会员注册项！';//Success: You have modified custom fields!
+$_['text_list']             = 'Custom Field List';
+$_['text_add']              = 'Add Custom Field';
+$_['text_edit']             = '账户编辑';//Edit Custom Field
+$_['text_choose']           = '选择';//Choose
+$_['text_select']           = '下拉列表';//Select
+$_['text_radio']            = '单选按钮组';//Radio
+$_['text_checkbox']         = '复选框';//Checkbox
+$_['text_input']            = '文字录入';//Input
+$_['text_text']             = '单行文本';//Text
+$_['text_textarea']         = '多行文本区';//Textarea
+$_['text_file']             = '文件';//File
+$_['text_date']             = '日期';//Date
+$_['text_datetime']         = '日期 &amp; 时间';//Date &amp; Time
+$_['text_time']             = '时间';//Time
+$_['text_account']          = '账户';//Account
+$_['text_address']          = '地址';//Address
 
 // Column
-$_['column_name']           = '自定义区名';
-$_['column_location']       = '定位';
-$_['column_type']           = '类型';
-$_['column_sort_order']     = '排序';
-$_['column_action']         = '管理';
+$_['column_name']           = '会员注册项名称';//Custom Field Name
+$_['column_location']       = '显示页面';//Location
+$_['column_type']           = '类型';//Type
+$_['column_sort_order']     = '排序';//Sort Order
+$_['column_action']         = '操作';//Action
 
 // Entry
-$_['entry_name']           = '自定义区名：';
-$_['entry_location']       = '定位：';
-$_['entry_type']         = '类型：';
-$_['entry_value']          = '值:';
-$_['entry_custom_value']   = '自定义字段值名称：';
-$_['entry_customer_group']  = '客户组';
-$_['entry_required']       = '必填:';
-$_['entry_status']          = '状态：';
-$_['entry_sort_order']   = '排序：';
+$_['entry_name']            = '会员注册项名称';//Custom Field Name
+$_['entry_location']        = '显示页面';//Location
+$_['entry_type']            = '类型';//Type
+$_['entry_value']           = '值';//Value
+$_['entry_custom_value']    = '注册项值';//Custom Field Value Name
+$_['entry_customer_group']  = '会员等级';//Customer Group
+$_['entry_required']        = '是否必填';//Required
+$_['entry_status']          = '状态';//Status
+$_['entry_sort_order']      = '排序';//Sort Order
 
 // Help
-$_['help_sort_order']       = '使用‘-’从集合中的最后一个字段向后计数。';
+$_['help_sort_order']       = 'Use minus to count backwards from the last field in the set.';
 
 // Error
-$_['error_permission']   = '警告：您没有权限修改自定义区！';
-$_['error_name']         = '选项名称必须介于1和128字符！';
-$_['error_type']         = '警告：填写的数据不符合要求！';
-$_['error_custom_value'] = '自定义区名必须为1到128个字符！';
-$_['error_product']      = '警告：该选项不能被删除，因为它是目前分配给 %s 的产品！';
+$_['error_permission']      = 'Warning: You do not have permission to modify custom fields!';//Warning: You do not have permission to modify custom fields!
+$_['error_name']            = 'Customer Field Name must be between 1 and 128 characters!';//Custom Field Name must be between 1 and 128 characters!
+$_['error_type']            = 'Warning: Custom Field Values required!';//Warning: Custom Field Values required!
+$_['error_custom_value']    = 'Custom Value Name must be between 1 and 128 characters!';//Custom Value Name must be between 1 and 128 characters!

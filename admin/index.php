@@ -13,8 +13,13 @@ if (!defined('DIR_APPLICATION')) {
 	exit;
 }
 
-// Startup
-require_once(DIR_SYSTEM . 'startup.php');
+//VirtualQMOD
+require_once('../vqmod/vqmod.php');
+VQMod::bootup();
+
+// VQMODDED Startup
+require_once(VQMod::modCheck(DIR_SYSTEM . 'startup.php'));
+
 
 // Registry
 $registry = new Registry();
@@ -25,9 +30,21 @@ $registry->set('config', $config);
 
 // Database
 $db = new DB(DB_DRIVER, DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+//将数据库对象$db 注册
 $registry->set('db', $db);
 
 // Settings
+//setting 表用来描述网站属性，包括各项设置。
+//+------------+-------------+------+-----+---------+----------------+
+//| Field      | Type        | Null | Key | Default | Extra          |
+//+------------+-------------+------+-----+---------+----------------+
+//| setting_id | int(11)     | NO   | PRI | NULL    | auto_increment |
+//| store_id   | int(11)     | NO   |     | 0       |                |
+//| code       | varchar(32) | NO   |     | NULL    |                |
+//| key        | varchar(64) | NO   |     | NULL    |                |
+//| value      | text        | NO   |     | NULL    |                |
+//| serialized | tinyint(1)  | NO   |     | NULL    |                |
+//+------------+-------------+------+-----+---------+----------------+
 $query = $db->query("SELECT * FROM " . DB_PREFIX . "setting WHERE store_id = '0'");
 
 foreach ($query->rows as $setting) {
@@ -152,10 +169,11 @@ foreach ($query->rows as $result) {
 }
 
 // Front Controller
+//$controller是一个Front对象
 $controller = new Front($registry);
 
 // Login
-
+//new Action('common/login/check')是一个$pre_action数组
 $controller->addPreAction(new Action('common/login/check'));
 
 // Permission

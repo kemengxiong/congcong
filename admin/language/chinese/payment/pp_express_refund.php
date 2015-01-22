@@ -1,20 +1,20 @@
 <?php
 // Heading
-$_['heading_title']					= '退款交易';
+$_['heading_title']					= 'Refund Transaction';
 
 // Text
-$_['text_pp_express']				= 'PayPal快速结帐';
-$_['text_current_refunds']			= '这项交易的退款已经完成了。最大退款额为';
+$_['text_pp_express']				= 'PayPal Express Checkout';
+$_['text_current_refunds']			= 'Refunds have already been done for this transaction. The max refund is';
 
 // Entry
-$_['entry_transaction_id']			= '交易 ID';
-$_['entry_full_refund']				= '全额退款';
-$_['entry_amount']					= '金额';
-$_['entry_message']					= '信息';
+$_['entry_transaction_id']			= 'Transaction ID';
+$_['entry_full_refund']				= 'Full refund';
+$_['entry_amount']					= 'Amount';
+$_['entry_message']					= 'Message';
 
 // Button
-$_['button_refund']					= '退款问题';
+$_['button_refund']					= 'Issue refund';
 
 // Error
-$_['error_partial_amt']				= '您必须输入部分退款金额';
-$_['error_data']					= '请求数据丢失';
+$_['error_partial_amt']				= 'You must enter a partial refund amount';
+$_['error_data']					= 'Data missing from request';

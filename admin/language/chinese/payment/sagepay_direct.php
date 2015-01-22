@@ -1,17 +1,17 @@
 <?php
 // Heading
-$_['heading_title']      = 'SagePay Direct';
+$_['heading_title']					= 'SagePay Direct';//SagePay Direct
 
-// Text 
-$_['text_payment']       = '支付管理'; 
-$_['text_success']       = '成功：您已修改SagePay帐户的详细资料！';
+// Text
+$_['text_payment']					= '支付管理';//Payment
+$_['text_success']					= '成功：您已修改SagePay帐户的详细资料！';//Success: You have modified SagePay account details!
 $_['text_edit']                     = 'Edit SagePay Direct';
 $_['text_sagepay_direct']			= '<a href="https://support.sagepay.com/apply/default.aspx?PartnerID=E511AF91-E4A0-42DE-80B0-09C981A3FB61" target="_blank"><img src="view/image/payment/sagepay.png" alt="SagePay" title="SagePay" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_sim']           = '模拟器';
-$_['text_test']          = '测试';
-$_['text_live']          = 'Live';
-$_['text_defered']       = 'Defered';
-$_['text_authenticate']  = '验证';
+$_['text_sim']						= '模拟器';//Simulator
+$_['text_test']						= '测试';//Test
+$_['text_live']						= 'Live';//Live
+$_['text_defered']					= 'Defered';//Defered
+$_['text_authenticate']				= '验证';//Authenticate
 $_['text_release_ok']				= 'Release was successful';
 $_['text_release_ok_order']			= 'Release was successful, order status updated to success - settled';
 $_['text_rebate_ok']				= 'Rebate was successful';
@@ -33,14 +33,14 @@ $_['text_confirm_release']			= 'Are you sure you want to release the payment?';
 $_['text_confirm_rebate']			= 'Are you sure you want to rebate the payment?';
 
 // Entry
-$_['entry_vendor']       = '供应商：';
-$_['entry_test']         = '测试模式：';
-$_['entry_transaction']  = '交易方法：';
-$_['entry_total']        = '订单合计：<br /><span class="help">当结帐时订单合计必须大于此数置才可使用本支付方式。</span>';
-$_['entry_order_status'] = '订单状态：';
-$_['entry_geo_zone']     = '区域群组：';
-$_['entry_status']       = '状态：';
-$_['entry_sort_order']   = '排序：';
+$_['entry_vendor']					= '供应商：';//Vendor
+$_['entry_test']					= '测试模式：';//Test Mode
+$_['entry_transaction']				= '交易方法：';//Transaction Method
+$_['entry_total']					= '订单合计：<br /><span class="help">当结帐时订单合计必须大于此数置才可使用本支付方式。</span>';//Total
+$_['entry_order_status']			= '订单状态：';//Order Status
+$_['entry_geo_zone']				= '区域群组：';//Geo Zone
+$_['entry_status']					= '状态：';//Status
+$_['entry_sort_order']				= '排序：';//Sort Order
 $_['entry_debug']					= 'Debug logging';
 $_['entry_card']					= 'Store Cards';
 $_['entry_cron_job_token']			= 'Secret Token';
@@ -60,5 +60,5 @@ $_['btn_rebate']					= 'Rebate / refund';
 $_['btn_void']						= 'Void';
 
 // Error
-$_['error_permission']   = '警告： 您没有权限修改SagePay付款！';
-$_['error_vendor']       = '供应商 ID 必填！';
+$_['error_permission']				= '警告： 您没有权限修改SagePay付款！';//Warning: You do not have permission to modify payment SagePay!
+$_['error_vendor']					= '供应商 ID 必填！';//Vendor ID Required!

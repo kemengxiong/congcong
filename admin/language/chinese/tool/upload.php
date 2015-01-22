@@ -1,21 +1,21 @@
 <?php
 // Heading
-$_['heading_title']     = '上传';
+$_['heading_title']     = 'Uploads';
 
 // Text
-$_['text_success']      = '成功：您已修改上传！';
-$_['text_list']         = '上传清单';
+$_['text_success']      = 'Success: You have modified uploads!';
+$_['text_list']         = 'Upload List';
 
 // Column
-$_['column_name']       = '上传文件名';
-$_['column_filename']   = '文件名';
-$_['column_date_added'] = '添加日期';
-$_['column_action']     = '管理';
+$_['column_name']       = 'Upload Name';
+$_['column_filename']   = 'Filename';
+$_['column_date_added'] = 'Date Added';
+$_['column_action']     = 'Action';
 
 // Entry
-$_['entry_name']        = '上传文件名';
-$_['entry_filename']    = '文件名';
-$_['entry_date_added'] 	= '添加日期';
+$_['entry_name']        = 'Upload Name';
+$_['entry_filename']    = 'Filename';
+$_['entry_date_added'] 	= 'Date Added';
 
 // Error
-$_['error_permission']  = '警告：您没有权限修改上传！';
+$_['error_permission']  = 'Warning: You do not have permission to modify uploads!';

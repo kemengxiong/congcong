@@ -1,4 +1,7 @@
 <?php
+/**
+ * $Author: http://www.opencartchina.com 
+**/
 // Text
 $_['text_for']          = '%s 礼券为 %s';
 $_['text_success']      = '订单总额已经重新核算！';

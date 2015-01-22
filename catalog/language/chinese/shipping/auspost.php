@@ -1,6 +1,6 @@
 <?php
 // Text
-$_['text_title']    = '澳大利亚邮政';
-$_['text_express']  = '快递服务';
-$_['text_standard'] = '标准服务';
-$_['text_eta']      = '日';
+$_['text_title']    = 'Australia Post';
+$_['text_express']  = 'Express';
+$_['text_standard'] = 'Standard';
+$_['text_eta']      = 'days';

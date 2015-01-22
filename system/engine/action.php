@@ -33,6 +33,10 @@ final class Action {
 				//找到相关的类名，比如：在/index.php?route=account/login中
 				//根据这个route，op的框架会找到Controller下的Account里的Login.php, 
 				//注意login.php的类名一定是这种格式的ControllerAccoutLogin{...}
+				
+				
+				//类名找到
+				// preg_replace ：去掉所有的非字母数字字符，即找到类名
 				$this->class = 'Controller' . preg_replace('/[^a-zA-Z0-9]/', '', $path);
 
 				array_shift($parts);
@@ -61,10 +65,12 @@ final class Action {
 		}
 
 		if (is_file($this->file)) {
+			//引入该文件
 			include_once($this->file);
 
 			$class = $this->class;
-
+			
+			//这个new $class从哪个地方来的？？？？？？？？？？？？？？
 			$controller = new $class($registry);
 			//is_callable — Verify that the contents of a variable can be called as a function 
 			if (is_callable(array($controller, $this->method))) {

@@ -1,8 +1,7 @@
 <?php
 // Text
-$_['text_items']    = '%s 项商品 - %s';
-$_['text_empty']    = '您的购物车没有添加商品！';
-$_['text_cart']     = '查看购物车';
-$_['text_checkout'] = '结算';
-
-$_['text_payment_profile'] = '付款资料';
+$_['text_items']    = '%s item(s) - %s';
+$_['text_empty']    = 'Your shopping cart is empty!';
+$_['text_cart']     = 'View Cart';
+$_['text_checkout'] = 'Checkout';
+$_['text_recurring']  = 'Payment Profile';

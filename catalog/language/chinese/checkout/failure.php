@@ -1,9 +1,20 @@
 <?php
 // Heading
-$_['heading_title'] = '结算失败!';
+$_['heading_title'] = 'Failed Payment!';
 
 // Text
-$_['text_basket']   = '购物车';
-$_['text_checkout'] = '结算';
-$_['text_failure']  = '结算失败';
-$_['text_message']  = '在结算时出现了问题！ 如果此问题继续存在请使用其它支付方式或<a href="%s">联系我们</a>。';
+$_['text_basket']   = 'Shopping Cart';
+$_['text_checkout'] = 'Checkout';
+$_['text_failure']  = 'Failed Payment';
+$_['text_message']  = '<p>There was a problem processing your payment and the order did not complete.</p>
+
+<p>Possible reasons are:</p>
+<ul>
+  <li>Insufficient funds</li>
+  <li>Verification failed</li>
+</ul>
+
+<p>Please try to order again using a different payment method.</p>
+
+<p>If the problem persists please <a href="%s">contact us</a> with the details of the order you are trying to place.</p>
+';

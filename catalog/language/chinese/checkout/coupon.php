@@ -1,13 +1,13 @@
 <?php
 // Heading
-$_['heading_title'] = '使用优惠券';
+$_['heading_title'] = 'Use Coupon Code';
 
 // Text
-$_['text_success']  = '恭喜：已成功使用优惠券！';
+$_['text_success']  = 'Success: Your coupon discount has been applied!';
 
 // Entry
-$_['entry_coupon']  = '请输入您的优惠券';
+$_['entry_coupon']  = 'Enter your coupon here';
 
 // Error
-$_['error_coupon']  = '警告：优惠券无效，过期或达到其使用限制！';
-$_['error_empty']   = ' 警告：请输入优惠券代码！';
+$_['error_coupon']  = 'Warning: Coupon is either invalid, expired or reached its usage limit!';
+$_['error_empty']   = 'Warning: Please enter a coupon code!';

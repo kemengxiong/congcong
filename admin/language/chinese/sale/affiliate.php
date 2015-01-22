@@ -1,9 +1,13 @@
 <?php
+/**
+ * $Author: http://www.opencartchina.com 
+**/
+
 // Heading
-$_['heading_title']             = '联盟会员';
+$_['heading_title']             = '加盟会员';
 
 // Text
-$_['text_success']              = '成功： 您已成功更新联盟会员！';
+$_['text_success']              = '成功： 您已成功更新加盟会员！';
 $_['text_approved']             = '您已有%s 个审核会员！';
 $_['text_wait']                 = '请耐心等待！';
 $_['text_balance']              = '余额：';
@@ -21,7 +25,7 @@ $_['column_approved']           = '审核';
 $_['column_date_added']         = '添加日期';
 $_['column_description']        = '描述';
 $_['column_amount']             = '合计';
-$_['column_action']             = '管理';
+$_['column_action']             = '操作';
 
 // Entry
 $_['entry_firstname']           = '您的名字：';
@@ -54,7 +58,7 @@ $_['entry_amount']              = '金额：';
 $_['entry_description']         = '描述：';
 
 // Error
-$_['error_permission']          = '警告： 您没有权限更改联盟会员！';
+$_['error_permission']          = '警告： 您没有权限更改加盟会员！';
 $_['error_exists']              = '警告： 此E-Mail地址已注册！';
 $_['error_firstname']           = '名字必须在1至32个字符之间！';
 $_['error_lastname']            = '姓氏必须在1至32个字符之间！';

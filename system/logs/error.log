@@ -19,3 +19,5 @@
 2015-01-19 22:05:05 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\congcong\admin\model\report\customer.php on line 314
 2015-01-19 22:05:05 - PHP Notice:  Error: Table 'congcong.cc_customer_online' doesn't exist<br />Error No: 1146<br />SELECT COUNT(*) AS total FROM `cc_customer_online` co LEFT JOIN cc_customer c ON (co.customer_id = c.customer_id) in C:\xampp\htdocs\congcong\system\library\db\mysqli.php on line 40
 2015-01-19 22:05:05 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\congcong\admin\model\report\customer.php on line 314
+2015-01-21 23:09:43 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\congcong\admin\controller\module\multiseller.php on line 273
+2015-01-22 2:16:49 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\congcong\admin\controller\module\multiseller.php on line 273
