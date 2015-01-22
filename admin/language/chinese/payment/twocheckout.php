@@ -6,7 +6,7 @@ $_['heading_title']					= '2Checkout';//2Checkout
 $_['text_payment']					= '支付管理';//Payment
 $_['text_success']					= '成功：您以修改2Checkout帐户的详细资料！';//Success: You have modified 2Checkout account details!
 $_['text_edit']                     = 'Edit 2Checkout';
-$_['text_twocheckout']				= '<a onclick="window.open('https://www.2checkout.com/2co/affiliate?affiliate=1596408');"><img src="view/image/payment/2checkout.png" alt="2Checkout" title="2Checkout" style="border: 1px solid #EEEEEE;" /></a>';//<a href="https://www.2checkout.com/2co/affiliate?affiliate=1596408" target="_blank"><img src="view/image/payment/2checkout.png" alt="2Checkout" title="2Checkout" style="border: 1px solid #EEEEEE;" /></a>
+$_['text_twocheckout']				= '<a onclick="window.open("https://www.2checkout.com/2co/affiliate?affiliate=1596408");"><img src="view/image/payment/2checkout.png" alt="2Checkout" title="2Checkout" style="border: 1px solid #EEEEEE;" /></a>';//<a href="https://www.2checkout.com/2co/affiliate?affiliate=1596408" target="_blank"><img src="view/image/payment/2checkout.png" alt="2Checkout" title="2Checkout" style="border: 1px solid #EEEEEE;" /></a>
 
 // Entry
 $_['entry_account']					= '2Checkout 帐户ID：';//2Checkout Account ID

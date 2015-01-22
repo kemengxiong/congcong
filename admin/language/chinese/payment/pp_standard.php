@@ -6,7 +6,7 @@ $_['heading_title']					= 'PayPal';//PayPal Payments Standard
 $_['text_payment']					= '支付管理';//Payment
 $_['text_success']					= '成功：您已修改 PayPal 帐户的详细资料！';//Success: You have modified PayPal account details!
 $_['text_edit']                     = 'Edit PayPal Payments Standard';
-$_['text_pp_standard']				= '<a onclick="window.open('https://www.paypal.com/uk/mrb/pal=W9TBB5DTD6QJW');"><img src="view/image/payment/paypal.png" alt="PayPal" title="PayPal" style="border: 1px solid #EEEEEE;" /></a>';//<a target="_BLANK" href="https://www.paypal.com/uk/mrb/pal=V4T754QB63XXL"><img src="view/image/payment/paypal.png" alt="PayPal Website Payment Pro" title="PayPal Website Payment Pro iFrame" style="border: 1px solid #EEEEEE;" /></a>
+$_['text_pp_standard']				= '<a onclick="window.open("https://www.paypal.com/uk/mrb/pal=W9TBB5DTD6QJW");"><img src="view/image/payment/paypal.png" alt="PayPal" title="PayPal" style="border: 1px solid #EEEEEE;" /></a>';//<a target="_BLANK" href="https://www.paypal.com/uk/mrb/pal=V4T754QB63XXL"><img src="view/image/payment/paypal.png" alt="PayPal Website Payment Pro" title="PayPal Website Payment Pro iFrame" style="border: 1px solid #EEEEEE;" /></a>
 $_['text_authorization']			= '授权';//Authorization
 $_['text_sale']						= '销售';//Sale
 

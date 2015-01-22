@@ -6,7 +6,8 @@ $_['heading_title']					= 'NOCHEX';//NOCHEX
 $_['text_payment']					= '支付管理';//Payment
 $_['text_success']					= '成功：您已修改NOCHEX帐户的详细资料！';//Success: You have modified NOCHEX account details!
 $_['text_edit']                     = 'Edit NOCHEX';
-$_['text_nochex']					= '<a onclick="window.open('https://secure.nochex.com/apply/merchant_info.aspx?partner_id=172198798');"><img src="view/image/payment/nochex.png" alt="NOCHEX" title="NOCHEX" style="border: 1px solid #EEEEEE;" /><br /><small>Signup</small></a>';//<a href="https://secure.nochex.com/apply/merchant_info.aspx?partner_id=172198798" target="_blank"><img src="view/image/payment/nochex.png" alt="NOCHEX" title="NOCHEX" style="border: 1px solid #EEEEEE;" /></a>
+$_['text_nochex']					= '<a onclick="window.open("https://secure.nochex.com/apply/merchant_info.aspx?partner_id=172198798");"><img src="view/image/payment/nochex.png" alt="NOCHEX" title="NOCHEX" style="border: 1px solid #EEEEEE;" /><br /><small>注册</small></a>';
+//<a href="https://secure.nochex.com/apply/merchant_info.aspx?partner_id=172198798" target="_blank"><img src="view/image/payment/nochex.png" alt="NOCHEX" title="NOCHEX" style="border: 1px solid #EEEEEE;" /></a>
 $_['text_seller']					= '卖家/个人帐户';//Seller / Personal Account
 $_['text_merchant']					= '商家帐户';//Merchant Account
 

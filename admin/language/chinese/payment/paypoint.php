@@ -6,7 +6,7 @@ $_['heading_title']					= 'PayPoint';//PayPoint
 $_['text_payment']					= '支付管理';//Payment
 $_['text_success']					= '成功：您已修改PayPoint帐户的详细资料！';//Success: You have modified PayPoint account details!
 $_['text_edit']                     = 'Edit PayPoint';
-$_['text_paypoint']					= '<a onclick="window.open('https://www.paypoint.net/partners/opencart');"><img src="view/image/payment/paypoint.png" alt="PayPoint" title="PayPoint" style="border: 1px solid #EEEEEE;" /></a>';//<a href="https://www.paypoint.net/partners/opencart" target="_blank"><img src="view/image/payment/paypoint.png" alt="PayPoint" title="PayPoint" style="border: 1px solid #EEEEEE;" /></a>
+$_['text_paypoint']					= '<a onclick="window.open("https://www.paypoint.net/partners/opencart");"><img src="view/image/payment/paypoint.png" alt="PayPoint" title="PayPoint" style="border: 1px solid #EEEEEE;" /></a>';//<a href="https://www.paypoint.net/partners/opencart" target="_blank"><img src="view/image/payment/paypoint.png" alt="PayPoint" title="PayPoint" style="border: 1px solid #EEEEEE;" /></a>
 $_['text_live']						= '生成';//Production
 $_['text_successful']				= '成功';//Always Successful
 $_['text_fail']						= '失败';//Always Fail

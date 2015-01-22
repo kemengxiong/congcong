@@ -5,7 +5,7 @@ $_['heading_title']					= 'PayPal Express';//PayPal Express Checkout
 // Text
 $_['text_success']					= '成功：PayPal Express Checkout 快速结账帐户以更新！';//Success: You have modified PayPal Express Checkout account details!
 $_['text_edit']                     = 'Edit PayPal Express Checkout';
-$_['text_pp_express']				= '<a onclick="window.open('https://www.paypal.com/uk/mrb/pal=W9TBB5DTD6QJW');"><img src="view/image/payment/paypal.png" alt="PayPal" title="PayPal" style="border: 1px solid #EEEEEE;" /></a>';//<a target="_BLANK" href="https://www.paypal.com/uk/mrb/pal=V4T754QB63XXL"><img src="view/image/payment/paypal.png" alt="PayPal Website Payment Pro" title="PayPal Website Payment Pro iFrame" style="border: 1px solid #EEEEEE;" /></a>
+$_['text_pp_express']				= '<a onclick="window.open("https://www.paypal.com/uk/mrb/pal=W9TBB5DTD6QJW");"><img src="view/image/payment/paypal.png" alt="PayPal" title="PayPal" style="border: 1px solid #EEEEEE;" /></a>';//<a target="_BLANK" href="https://www.paypal.com/uk/mrb/pal=V4T754QB63XXL"><img src="view/image/payment/paypal.png" alt="PayPal Website Payment Pro" title="PayPal Website Payment Pro iFrame" style="border: 1px solid #EEEEEE;" /></a>
 $_['text_authorization']			= '授权';//Authorization
 $_['text_sale']						= '销售';//Sale
 $_['text_clear']					= 'Clear';//Clear

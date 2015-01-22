@@ -6,7 +6,7 @@ $_['heading_title']					= 'Web Payment Software';//Web Payment Software
 $_['text_payment']					= 'Web Payment';//Payment
 $_['text_success']					= 'Success: You have modified Web Payment Software account details!';//Success: You have modified Web Payment Software account details!
 $_['text_edit']                     = 'Edit AWeb Payment Software';
-$_['text_web_payment_software']		= '<a onclick="window.open('http://www.web-payment-software.com/');"><img src="view/image/payment/wps-logo.jpg" alt="Web Payment Software" title="Web Payment Software" style="border: 1px solid #EEEEEE;" /></a>';//<a href="http://www.web-payment-software.com/" target="_blank"><img src="view/image/payment/wps-logo.jpg" alt="Web Payment Software" title="Web Payment Software" style="border: 1px solid #EEEEEE;" /></a>
+$_['text_web_payment_software']		= '<a onclick="window.open("http://www.web-payment-software.com/");"><img src="view/image/payment/wps-logo.jpg" alt="Web Payment Software" title="Web Payment Software" style="border: 1px solid #EEEEEE;" /></a>';//<a href="http://www.web-payment-software.com/" target="_blank"><img src="view/image/payment/wps-logo.jpg" alt="Web Payment Software" title="Web Payment Software" style="border: 1px solid #EEEEEE;" /></a>
 $_['text_test']						= 'Test';//Test
 $_['text_live']						= 'Live';//Live
 $_['text_authorization']			= 'Authorization';//Authorization
