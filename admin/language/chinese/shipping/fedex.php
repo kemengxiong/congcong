@@ -54,7 +54,8 @@ $_['entry_dropoff_type']                       = 'Drop Off Type:';//Drop Off Typ
 $_['entry_packaging_type']                     = 'Packaging Type:';//Packaging Type
 $_['entry_rate_type']                          = 'Rate Type:';//Rate Type
 $_['entry_display_time']                       = 'Display Delivery Time:<br /><span class="help">Do you want to display the shipping time? (e.g. Ships within 3 to 5 days)</span>';//Display Delivery Time
-$_['entry_display_weight']                     = 'Display Delivery Weight:<br /><span class="help">Do you want to display the shipping weight? (e.g. Delivery Weight : 2.7674 Kg's)</span>';//Display Delivery Weight
+												//该成中文
+$_['entry_display_weight']                     = '显示快递重量:<br /><span class="help">您想显示快递重量吗？ (比如： 快递重量为 : 2.7674 千克)</span>';//Display Delivery Weight
 $_['entry_weight_class']                       = 'Weight Class:<span class="help">Set to kilograms or pounds.</span>';//Weight Class
 $_['entry_tax_class']                          = '税类：';//Tax Class
 $_['entry_geo_zone']                           = '区域群组：';//Geo Zone

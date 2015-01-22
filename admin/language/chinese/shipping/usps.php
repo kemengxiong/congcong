@@ -63,7 +63,7 @@ $_['entry_length']          = 'Length';
 $_['entry_height']          = 'Height';
 $_['entry_width']           = 'Width';
 $_['entry_display_time']    = '显示快递时间：<br /><span class="help">您是否需要显示出货的时间？ （如3至5天内快递）</span>';//Display Delivery Time
-$_['entry_display_weight']  = '显示快递重量：<br /><span class="help">您是否需要显示出货的重量？ （例如交货重量： 2.7674 Kg's)</span>';//Display Delivery Weight
+$_['entry_display_weight']  = '显示快递重量：<br /><span class="help">您是否需要显示出货的重量？ （例如交货重量： 2.7674 千克)</span>';//Display Delivery Weight
 $_['entry_weight_class']    = '重量类别：<br /><span class="help">设置为磅.</span>';//Weight Class
 $_['entry_tax']             = '税类：';//Tax Class
 $_['entry_geo_zone']        = '区域群组：';//Geo Zone

@@ -10,7 +10,7 @@ $_['text_edit']                              = 'Edit Royal Mail Shipping';
 // Entry
 $_['entry_rate']                             = 'Rates:<br /><span class="help">Example: 5:10.00,7:12.00 Weight:Cost,Weight:Cost, etc..</span>';//Rates
 $_['entry_insurance']                        = 'Compensation Rates:<br /><span class="help">Enter values upto 5,2 decimal places. (12345.67) Example: 34:0,100:1,250:2.25 - Insurance cover for cart values upto 34 would cost 0.00 extra, those values more than 100 and upto 250 will cost 2.25 extra. Do not enter currency symbols.</span>';//Compensation Rates
-$_['entry_display_weight']                   = '交货重量:<br /><span class="help">你想显示交货重量? (例如交货重量: 2.7674 Kg's)</span>';//Display Delivery Weight
+$_['entry_display_weight']                   = '交货重量:<br /><span class="help">你想显示交货重量? (例如交货重量: 2.7674 千克)</span>';//Display Delivery Weight
 $_['entry_display_insurance']                = '显示保险:<br /><span class="help">你想显示运输保险? (例如保险高达 500)</span>';//Display Insurance
 $_['entry_weight_class']                     = '重量类别:';//Weight Class
 $_['entry_tax_class']                        = '税类:';//Tax Class

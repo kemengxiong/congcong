@@ -10,7 +10,8 @@ $_['text_edit']               = 'Edit Parcelforce 48 Shipping';
 // Entry
 $_['entry_rate']              = 'Parcelforce 48 费用：<br /><span class="help">输入高达5,2位小数值。 (12345.67) 例子： .1：1，.25：1.27 -重量小于或等于0.1公斤将花费1.00，重量小于或等于0.25克但多于0.1公斤将花费1.27。不要输入KG或符号。</span>';//Parcelforce 48 Rates
 $_['entry_insurance']         = 'Parcelforce48 Compensation Rates：<br /><span class="help">Enter values upto 5,2 decimal places. (12345.67) Example： 34：0,100：1,250：2.25 - Insurance cover for cart values upto 34 would cost 0.00 extra, those values more than 100 and upto 250 will cost 2.25 extra. Do not enter currency symbols.</span>';//Parcelforce48 Compensation Rates
-$_['entry_display_weight']    = '交货重量：<br /><span class="help">你想显示交货重量？ (例如交货重量： 2.7674 Kg's)</span>';//Display Delivery Weight
+									//把“2.7674 Kg’s)”  改为 “2.7674 千克)”
+$_['entry_display_weight']    = '交货重量：<br /><span class="help">你想显示交货重量？ (例如交货重量： 2.7674 Kg)</span>';//Display Delivery Weight
 $_['entry_display_insurance'] = '显示保险：<br /><span class="help">你想显示运输保险？ (例如保险高达 500)</span>';//Display Insurance
 $_['entry_display_time']      = '交货时间：<br /><span class="help">你想显示交货时间？ (例如交货时间在3至5天)</span>';//Display Delivery Time
 $_['entry_tax_class']         = '税类：';//Tax Class

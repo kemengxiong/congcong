@@ -62,9 +62,10 @@ $_['entry_packaging']              = '包装类别:<span class="help">您货物�
 $_['entry_classification']         = 'Customer Classification Code:<span class="help">01 - If you are billing to a UPS account and have a daily UPS pickup, 03 - If you do not have a UPS account or you are billing to a UPS account but do not have a daily pickup, 04 - If you are shipping from a retail outlet (only used when origin is US)</span>';//Customer Classification Code
 $_['entry_origin']                 = 'Shipping Origin Code:<span class="help">What origin point should be used (this setting affects only what UPS product names are shown to the user)</span>';//Shipping Origin Code
 $_['entry_city']                   = '始发城市:<span class="help">请输入您的始发城市名.</span>';//Origin City
-$_['entry_state']                  = 'Origin State/Province:<span class="help">Enter the two-letter code for your origin state/province.</span>';//Origin State/Province
+									//始发省/周
+$_['entry_state']                  = '始发省/州:<span class="help">请输入省/州的简称.</span>';//Origin State/Province
 $_['entry_country']                = '始发国家:<span class="help">请输入您的始发国家的两位代码.</span>';//Origin Country
-$_['entry_postcode']               = '始发地的邮编:<span class="help">Enter your origin zip/postalcode.</span>';//Origin Zip/Postal Code
+$_['entry_postcode']               = '始发地的邮编:<span class="help">请输入始发地的邮箱.</span>';//Origin Zip/Postal Code
 $_['entry_test']                   = 'Test or Production Mode:<span class="help">Use this module in Test or Production mode?</span>';//Test Mode
 $_['entry_quote_type']             = 'Quote Type:<span class="help">Quote for Residential or Commercial Delivery.</span>';//Quote Type
 $_['entry_service']                = 'Services:<span class="help">Select the UPS services to be offered.</span>';//Services
