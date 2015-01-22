@@ -138,7 +138,7 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 }
 #profile div {
 	float: left;
-	color: #C4C4C4;
+	color: #868686;
 }
 #profile div + div {
 	margin-left: 15px;
@@ -151,10 +151,11 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	color: #FFF;
 	margin-bottom: 0;
 }
+/*边栏*/
 #column-left {
 	width: 50px;
 	height: 100%;
-	background-color: #515151;
+	background-color: #878787;
 	position: absolute;
 	top: 0px;
 	padding-top: 50px;
@@ -228,7 +229,7 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 }
 #menu li li a:hover {
 	color: #FFFFFF;
-	background-color: #373737;
+	background-color: #383838;
 }
 #menu li li a:before {
 	content: "\f101";
@@ -242,8 +243,8 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	margin-right: 20px;
 }
 #menu > li.active > a {
-	color: #DDDDDD;
-	background: #373737;
+	color: #ffffff;
+	background: #696969;
 }
 #menu li.active li a {
 	color: #C4C4C4;
@@ -261,7 +262,7 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	left: 50px;
 	top: 0px;
 	width: 210px;
-	background-color: #444444;
+	background-color: #656565;
 	visibility: hidden;
 }
 #menu li ul {
@@ -602,7 +603,7 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 	font-size: 11px;
 	color: #9d9d9d;
 	padding: 5px 10px;
-	border-bottom: 1px dotted #373737;
+	border-bottom: 1px dotted #696969;
 } 
 #stats div:first-child {
 	margin-bottom: 4px;
