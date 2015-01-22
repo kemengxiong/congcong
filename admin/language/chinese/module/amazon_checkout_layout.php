@@ -1,21 +1,18 @@
 <?php
-/**
- * $Author: http://www.opencartchina.com 
-**/
-
 // Heading
-$_['heading_title'] = '亚马逊支付按钮(Amazon Payments button)';
+$_['heading_title'] = 'Amazon Payments button';
 
-$_['text_module']         = '模组';
-$_['text_success']        = '已成功修改亚马逊支付按钮(Amazon Payments button)模组设置';
-$_['text_content_top']    = '内容的上面';
-$_['text_content_bottom'] = '内容的底部';
-$_['text_column_left']    = '左列显示';
-$_['text_column_right']   = '右列显示';
+$_['text_module'] = 'Modules';
+$_['text_success'] = 'Success: You have modified module Amazon Payments layout!';
+$_['text_content_top'] = 'Content Top';
+$_['text_content_bottom'] = 'Content Bottom';
+$_['text_column_left'] = 'Column Left';
+$_['text_column_right'] = 'Column Right';
 
-$_['entry_layout']        = '布局';
-$_['entry_position']   = '显示位置';
-$_['entry_status']     = '状态';
-$_['entry_sort_order'] = '排序';
+$_['entry_layout'] = 'Layout:';
+$_['entry_position'] = 'Position:';
+$_['entry_status'] = 'Status:';
+$_['entry_sort_order'] = 'Sort Order:';
 
-$_['error_permission'] = '您没有权限更改亚马逊支付按钮(Amazon Payments button)模组设置';
+$_['error_permission'] = 'Warning: You do not have permission to modify module Amazon Payments layout!';
+?>

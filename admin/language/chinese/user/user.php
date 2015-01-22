@@ -1,36 +1,35 @@
 <?php
 // Heading
-$_['heading_title']     = '商店管理员';//Users
+$_['heading_title']     = '商店管理员';
 
 // Text
-$_['text_success']      = '成功： 您已成功更新管理员设置！';//Success: You have modified users!
-$_['text_list']         = 'User List';
-$_['text_add']          = 'Add User';
-$_['text_edit']         = 'Edit User';
-
+$_['text_success']      = '成功： 您已成功更新管理员设置！';
+$_['text_list']         = '管理员清单';
 // Column
-$_['column_username']   = '管理员名称';//Username
-$_['column_status']     = '状态';//Status
-$_['column_date_added'] = '生成日期';//Date Added
-$_['column_action']     = '操作';//Action
+$_['column_username']   = '管理员名';
+$_['column_status']     = '状态';
+$_['column_date_added'] = '生成日期';
+$_['column_action']     = '管理';
 
 // Entry
-$_['entry_username']   	= '管理员名称：';//Username
-$_['entry_user_group'] 	= '&nbsp;&nbsp;&nbsp;管理员群组：';//User Group
-$_['entry_password']   	= '&nbsp;&nbsp;&nbsp;密码：';//Password
-$_['entry_confirm']    	= '&nbsp;&nbsp;&nbsp;确认密码：';//Confirm
-$_['entry_firstname']  	= '名字：';//First Name
-$_['entry_lastname']   	= '姓氏：';//Last Name
-$_['entry_email']      	= '&nbsp;&nbsp;&nbsp;邮箱：';//E-Mail
-$_['entry_image']      	= 'Image';
-$_['entry_status']     	= '&nbsp;&nbsp;&nbsp;状态：';//Status
+$_['entry_username']    = '管理员名称：';
+$_['entry_user_group']  = '管理员群组：';
+$_['entry_password']    = '密码：';
+$_['entry_confirm']     = '确认密码：';
+$_['entry_firstname']   = '名字：';
+$_['entry_lastname']    = '姓氏：';
+$_['entry_email']       = '邮箱：';
+$_['entry_image']      	= '图像：';
+$_['entry_status']      = '状态：';
+$_['entry_captcha']     = '在下面的输入框中输入验证码：';
 
 // Error
-$_['error_permission'] 	= '警告： 您没有权限更改管理员设置！';//Warning: You do not have permission to modify users!
-$_['error_account']    	= '警告： 您不能删除自己的账户！';//Warning: You can not delete your own account!
-$_['error_exists']     	= '警告： 管理员名称已存在！';//Warning: Username is already in use!
-$_['error_username']   	= '管理员名称必须在3至20个字符之间！';//Username must be between 3 and 20 characters!
-$_['error_password']   	= '密码长度必须在4至20个字符之间！';//Password must be between 4 and 20 characters!
-$_['error_confirm']    	= '密码和确认密码不一致！';//Password and password confirmation do not match!
-$_['error_firstname']  	= '名字必须在1至32个字符之间！';//First Name must be between 1 and 32 characters!
-$_['error_lastname']   	= '姓氏必须在1至32个字符之间！';//Last Name must be between 1 and 32 characters!
+$_['error_permission']  = '警告： 您没有权限更改管理员设置！';
+$_['error_account']     = '警告： 您不能删除自己的账户！';
+$_['error_exists']      = '警告： 管理员名称已存在！';
+$_['error_username']    = '管理员名必须在3至20个字符之间！';
+$_['error_password']    = '密码长度必须在4至20个字符之间！';
+$_['error_confirm']     = '密码和确认密码不一致！';
+$_['error_firstname']   = '名字必须在1至32个字符之间！';
+$_['error_lastname']    = '姓氏必须在1至32个字符之间！';
+$_['error_captcha']     = '验证码输入有误！';

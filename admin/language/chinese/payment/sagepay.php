@@ -1,15 +1,11 @@
 <?php
-/**
- * $Author: http://www.opencartchina.com 
-**/
-
 // Heading
 $_['heading_title']      = 'SagePay';
 
 // Text 
 $_['text_payment']       = '支付管理'; 
 $_['text_success']       = '成功：您已修改SagePay帐户的详细资料！';
-$_['text_sagepay']       = '<a onclick="window.open(\'https://support.sagepay.com/apply/default.aspx?PartnerID=E511AF91-E4A0-42DE-80B0-09C981A3FB61\');"><img src="view/image/payment/sagepay.png" alt="SagePay" title="SagePay" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_sagepay']       = '<a href="https://support.sagepay.com/apply/default.aspx?PartnerID=E511AF91-E4A0-42DE-80B0-09C981A3FB61" target="_blank"><img src="view/image/payment/sagepay.png" alt="SagePay" title="SagePay" style="border: 1px solid #EEEEEE;" /></a>';
 $_['text_sim']           = '模拟器';
 $_['text_test']          = '测试';
 $_['text_live']          = 'Live';

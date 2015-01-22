@@ -1,16 +1,18 @@
 <?php
 // Heading
-$_['heading_title']     = 'HTML内容';//HTML Content
+$_['heading_title']     = 'HTML内容';
 
 // Text
-$_['text_module']       = '模块';//Modules
-$_['text_success']      = '成功:你有修改HTML内容模块!';//Success: You have modified HTML Content module!
-$_['text_edit']         = 'Edit HTML高兴单元';//Edit HTML Content Module
+$_['text_module']       = '模块';
+$_['text_success']      = '成功：您已修改HTML内容模块！';
+$_['text_edit']         = '编辑HTML内容模块';
 
 // Entry
-$_['entry_heading']     = '标题标题';//Heading Title
-$_['entry_description'] = '内容';//Content
-$_['entry_status']      = '状态';//Status
+$_['entry_name']        = '模块名称';
+$_['entry_title']     = '标题';
+$_['entry_description'] = '内容';
+$_['entry_status']      = '状态';
 
 // Error
-$_['error_permission']  = '警告:您没有权限修改HTML内容模块!';//Warning: You do not have permission to modify HTML Content module!
+$_['error_permission']  = '警告：您没有权限修改HTML内容模块！';
+$_['error_name']        = '模块名称必须是3到64个字符！';

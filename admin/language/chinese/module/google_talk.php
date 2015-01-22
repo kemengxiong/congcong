@@ -1,8 +1,4 @@
 <?php
-/**
- * $Author: http://www.opencartchina.com 
-**/
-
 // Heading
 $_['heading_title']       = 'Google Talk';
 
@@ -15,7 +11,7 @@ $_['text_column_left']    = '左列显示';
 $_['text_column_right']   = '右列显示';
 
 // Entry
-$_['entry_code']          = '代码：<br /><span class="help">到 <a onclick="window.open(\'http://www.google.com/talk/service/badge/New\');"><u>Google Talk</u></a> 创建，并复制代码 &amp; 粘贴到文本框中生成。</span>';
+$_['entry_code']          = '代码：<br /><span class="help">到 <a href="http://www.google.com/talk/service/badge/New" target="_blank"><u>Google Talk</u></a> 创建，并复制代码 &amp; 粘贴到文本框中生成。</span>';
 $_['entry_layout']        = '布局：';
 $_['entry_position']      = '显示位置：';
 $_['entry_status']        = '状态：';

@@ -1,8 +1,11 @@
 <?php
 // Headings
-$_['heading_title']             = '使用';//Usage
-$_['text_openbay']              = 'OpenBay职业';//OpenBay Pro
-$_['text_ebay']                 = '易趣';//eBay
+$_['heading_title']             = 'Usage';
+$_['text_openbay']              = 'OpenBay Pro';
+$_['text_ebay']                 = 'eBay';
+
+// Text
+$_['text_usage']                = 'Your account usage';
 
 // Errors
-$_['error_ajax_load']      		= '对不起,不能得到回应。稍后尝试。';//Sorry, could not get a response. Try later.
+$_['error_ajax_load']      		= 'Sorry, could not get a response. Try later.';
