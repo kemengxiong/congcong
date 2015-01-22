@@ -1,4 +1,6 @@
+/*后台静态样式表*/
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,greek-ext,vietnamese);
+/*整体页面*/
 html, body {
 	height: 100%;
 	margin: 0;
@@ -10,15 +12,18 @@ html, body {
 	line-height: 18px;
 	text-rendering: optimizeLegibility;
 }
+/*各标题*/
 h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;
 }
+/*页头*/
 .page-header {
 	vertical-align: middle;
 	margin: 15px 0;
 	padding: 0;
 	border-bottom: none;
 }
+/*页头标题*/
 .page-header h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -133,7 +138,7 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 }
 #profile div {
 	float: left;
-	color: #C4C4C4;
+	color: #868686;
 }
 #profile div + div {
 	margin-left: 15px;
@@ -146,10 +151,12 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	color: #FFF;
 	margin-bottom: 0;
 }
+/*边栏*/
 #column-left {
 	width: 50px;
 	height: 100%;
-	background-color: #515151;
+	background-color: #ffffff;
+	border-right: 1px solid #e5e5e5;
 	position: absolute;
 	top: 0px;
 	padding-top: 50px;
@@ -200,30 +207,30 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	display: block;
 	padding: 10px;
 	cursor: pointer;
-	border-bottom: 1px solid #515151;
+	border-bottom: 1px solid #e5e5e5;
 }
 #menu li a i {
 	font-size: 16px;
 }
 #menu > li > a {
-	color: #C4C4C4;
+	color: #000000;
 	font-size: 14px;	
 	padding-left: 13px;
 	border-bottom: 1px solid #585858;
 }
 #menu > li > a:hover {
-	background-color: #444444;
+	background-color: #79cf1d;
 }
 #menu > li > a > span {
 	display: none;
 	margin-left: 8px;
 }
 #menu li li a {
-	color: #9d9d9d;
+	color: #ffffff;
 }
 #menu li li a:hover {
-	color: #FFFFFF;
-	background-color: #373737;
+	color: #000000;
+	background-color: #79cf1d;
 }
 #menu li li a:before {
 	content: "\f101";
@@ -237,11 +244,11 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	margin-right: 20px;
 }
 #menu > li.active > a {
-	color: #DDDDDD;
-	background: #373737;
+	color: #ffffff;
+	background: #80e126;
 }
 #menu li.active li a {
-	color: #C4C4C4;
+	color: #000000;
 }
 #menu li li.active > a:last-child {
 	color: #FFFFFF;
@@ -256,7 +263,7 @@ span.hidden-xs, span.hidden-sm, span.hidden-md, span.hidden-lg {
 	left: 50px;
 	top: 0px;
 	width: 210px;
-	background-color: #444444;
+	background-color: #80e126;
 	visibility: hidden;
 }
 #menu li ul {
@@ -527,11 +534,11 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 	height: 40px;
 	padding-top: 10px;
 }
-/* Tiles */
+/* 后台首页色块 */
 .tile {
 	margin-bottom: 15px;
 	border-radius: 3px;
-	background-color: #279FE0;
+	background-color: #80e126;
 	color: #FFFFFF;
 	transition: all 1s;
 }
@@ -545,7 +552,7 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 .tile-heading {
 	padding: 5px 8px;
 	text-transform: uppercase;
-	background-color: #1E91CF;
+	background-color: #79cf1d;
 	color: #FFF;
 }
 .tile .tile-heading .pull-right {
@@ -574,16 +581,17 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 }
 .tile-footer {
 	padding: 5px 8px;
-	background-color: #3DA9E3;
+	background-color: #8ee33d;
 }
 #column-left.active #stats {
 	display: block;
 } 
+/*分析*/
 #stats {
 	display: none;
 	border-radius: 2px;
-	color: #666666;
-	background: #2b2b2b;
+	color: #ffffff;
+	background: #80e126;
 	margin: 15px 20px;
 	padding: 5px 0;
 }
@@ -594,9 +602,9 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 }
 #stats li {
 	font-size: 11px;
-	color: #9d9d9d;
+	color: #ffffff;
 	padding: 5px 10px;
-	border-bottom: 1px dotted #373737;
+	border-bottom: 1px dotted #696969;
 } 
 #stats div:first-child {
 	margin-bottom: 4px;
